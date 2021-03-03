@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Number Guessing Game</title>
+        <meta name="description" content="percentage calculator">
+        <meta name="viewport" content="width=device-width, initial-scale=1">  
+        <link rel="stylesheet" type="text/css" href="mystyle.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
+       
+    </head>
+
+    <body>
+        <h1> <span id ="Guess">Number  </span>Guessing Game</h1>
+        <p> <span id ="Guess">Try and Guess a random number</span>between 1 and 500</p>
+        <p> <span id ="Guess">You have 10 attempts</span>to guess the right number</p>
+            </br>
+            <div id ="wrapper">
+                <div class="form">
+                <label id ="guess" for="guessField">Guess a number </label><p><input type="text" id="guessField" class="guessField"></p>
+                <p><input id ="subt"type="submit" value="Submit guess" class="guessSubmit"></p>
+                </div>
+                <div class="resultParas">
+                    <p class="guesses"></p>
+                    <p class="lastResult"></p>
+                    <p class="lowOrHi"></p>
+                 </div>
+                </div>
+               <script src="myscript.js"></script>
+          
+    </body>
+          
+</html>
